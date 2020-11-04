@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 100%;
+  margin-right: 0 auto;
+}
+
+.title {
+  font-family: 'Abril Fatface';
+  width: 100%;
+  margin: auto;
+  height: 380px;
+  position: relative;
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-flow: column;
+  justify-content: center;
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  margin-bottom: 0px;
+  display: block;
+  margin-left: 300px;
+  margin-top: 200px;
+  font-size: 29px;
+}
+
+h1 {
+  margin-top: 0px;
+  display: block;
+  margin-left: 300px;
+  font-size: 58px;
+}
+
+.middle {
+  font-family: 'Josefin Sans';
+  margin-left: 300px;
+  margin-right: 330px;
+  line-height: 180%;
+}
+
+.blockquote-box {
+  background: #222;
+  position: relative;
+  margin-left: 260px;
+  margin-right: 300px;
+  margin-top: 30px;
+}
+
+.blockquote {
+  display: block;
+  font-family: 'Abril Fatface';
+  text-align: left;
+  color: white;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  font-size: 38px;
+}
+
+blockquote::before {
+  content: '\201C';
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: -60px;
+  left: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Josefin Sans';
+  font-size: 23px;
+  display: block;
+  margin-left: 300px;
+  margin-top: 45px;
+  margin-right: 320px;
+  line-height: 180%;
+}
+
+h4 {
+  font-family: 'Josefin Sans';
+  font-size: 23px;
+  display: block;
+  margin-left: 300px;
+  margin-right: 320px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-family: 'Merriweather';
+  display: block;
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 300px;
+  margin-right: 320px;
+  margin-top: 0px;
+}
+
+.casualtext {
+  font-family: 'Josefin Sans';
+  font-size: 15px;
+  display: block;
+  margin-left: 300px;
+  margin-right: 330px;
+  line-height: 140%;
+}
+
+.list {
+  font-family: 'Josefin Sans';
+  margin-left: 300px;
+  margin-right: 330px;
+  margin-bottom: 45px;
+  line-height: 140%;
+  font-size: 15px;
+  list-style-type: square;
+}
+
+hr {
+  border: 2px solid black;
+  margin-right: 300px;
+  margin-left: 260px;
+}
